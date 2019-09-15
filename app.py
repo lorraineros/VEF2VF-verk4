@@ -4,14 +4,21 @@ from flask import Flask, render_template, make_response
 app = Flask(__name__,)
 
 frettir= [
-    [0,"Hello user",
-     "How are you my friend?, Do you like my project? :)" 
+    [0,"Kitten Sees Itself In The Mirror For The First Time",
+     "The world is a strange place for a newborn kitten - everything is huge and confusing, and you learn new things everyday. This little cutie named Wiske had an absolutely adorable reaction to her first time seeing a mirror, when she clearly couldn't tell what was going on.",
+     "some@email.com"
      ], 
-    [1,"Lets talk about baseball",
-     " Baseball is a sport that dates back as far as 1744 and formats of the game have been in place until the modern era today. The game is predominantly big in North America, Canada and Japan. The game is played worldwide with the pinnacle of sport coming from the World Series of Baseball. Ironically, this event is only competed by North American teams."
+    [1,"Cats With Human Mouths",
+     "It may look like something from the depths of your worst nightmares, but Cats With Human Mouths is actually pretty hilarious. Even if it will haunt you for days.",
+     "some2@email.com"
      ],
-    [2,"Lets talk about Basketball",
-     "Basketball is a team sport where two teams, usually consisting of five players on each team, play against each other on a rectangular court. The objective is to get the ball through a hoop mounted high on a backboard on the opponent's side of the court, while preventing the opponent from shooting it into your team's hoop. It is a very popular sport worldwide, played with a round and usually orange ball that bounces. Basketball players mainly use skills such as dribbling, shooting, running, and jumping."
+    [2,"Cats Vs. Their Own Shadows",
+    "Many cats don't quite understand the laws of physics, meaning the can often think their own shadow is an enemy cat ready to pounce, rather than the absence of light caused by their own bodies.",
+    "some3@email.com"
+     ],
+    [3,"Cats Witness Ceiling Fan Spinning for First Time",
+    "When this cat owner turned on his ceiling fan in his bedroom for the first time, his one-year-old cats were astonished to see the magnificent spinning machine of wonder that took place above them",
+    "some4@email.com"
      ]
     ]
 

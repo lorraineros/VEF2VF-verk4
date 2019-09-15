@@ -9,7 +9,8 @@
             <img src='/static/mynd{{ frett[0] }}.png/'>
         </section>
         <section>
-            <p>{{ frett[2] }}</p>
+            <h4>{{ frett[2] }}</h4>
+            <h5>{{ frett[3] }}</h5>
              <h5><a href="/">Forsíða</a></h5>
         </section>
      </div>

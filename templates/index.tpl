@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %} This is my project  {% endblock %}
+{% block title %} This is cat news  {% endblock %}
 
 {% block head %}
     {{ super() }}
@@ -11,11 +11,8 @@
 
 {% block content %}
     <div class=" " " " >
-        <section>
-            <h1 class="important">{{frettir[0][1]}}</h1>
-        </section>
         <section class="top2em">
-            <h3>This is my project</h3>
+            <h1>This is cat news</h1>
             <ul>
                 {% for item in frettir %}
                     <li><a href='/frett/{{ item[0] }}'>{{ item[1] }}</a> </li>

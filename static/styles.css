@@ -9,6 +9,10 @@ body {
 	color: #777;
 	text-align: center;
 }
+
+.title {
+	text-decoration: none;
+}
 .fotur {
 	margin-top:2em;
 }

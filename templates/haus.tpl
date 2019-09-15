@@ -1,5 +1,5 @@
   <header class="haus">
-    <h1><a href="/">Verkefni 3</a></h1>
+    <h1><a class="title" href="/">CAT NEWS</a></h1>
     <div class="nav" "errormsg" >
         <a href="/">Home</a>
         <a  href="/about">About</a>
