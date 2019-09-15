@@ -1,0 +1,37 @@
+body {
+	margin:0 auto;
+	font-family: sans-serif;
+	background-color: rgb(rgb);
+	text-align: center;
+}
+.haus, .fotur {
+	border-radius: 5px;
+	color: #777;
+	text-align: center;
+}
+.fotur {
+	margin-top:2em;
+}
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+img {
+	width: 100%;
+}
+.pd2 {
+	padding-left: 2em;
+	text-align: center;
+}
+.errormsg {
+	color:#700;
+	text-align: center;
+}
+.top2em {
+	padding: 3em 0 0 2em;
+	text-align: center;
+}
+.nav {
+	padding-bottom:1em;
+	text-align: center;
+}
