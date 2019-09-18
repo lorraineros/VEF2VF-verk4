@@ -1,0 +1,71 @@
+body {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.haus {
+    border: 0.3px solid;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.group {
+    clear: both;
+    *zoom: 1;
+}
+
+.group:after{
+    clear: both;
+}
+
+.group:before{
+    content: "";
+    display: table;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.group:before, .group:after {
+    content: "";
+    display: table;
+}
+
+img {
+	width: 100%;
+}
+
+.col1 {
+    float: left;
+    width: 50%;
+}
+
+a{
+    text-decoration: none;
+}
+
+section {
+    display: block;
+    padding: 1em;
+}
+
+h3{
+    text-align: center;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.fotur {
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+}

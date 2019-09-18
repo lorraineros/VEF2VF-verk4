@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Required meta tags -->
+    {% block head %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- CSS Style -->
-    <link rel="stylesheet" href="/static/styles.css"/>
+    <link rel="stylesheet" href="/static/ok.css"/>
+    {% endblock %}
 </head>
 <body>
-    <div class="body">
-        {% include "haus.tpl" ignore missing %}
-        {% block content %}{% endblock %}
-        {% include "footer.tpl" ignore missing %}
-      </div>
+    <link rel="stylesheet" href="/static/ok.css"/>
+
+    {% include "haus.tpl" ignore missing %}
+    {% block content %}{% endblock %}
+    {% include "fotur.tpl" ignore missing %}
 </body>
 </html>

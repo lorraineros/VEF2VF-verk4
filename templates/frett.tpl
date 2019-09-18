@@ -3,13 +3,17 @@
 {% block title %} {{ frett[1] }} {% endblock %}
 
 {% block content %}
-     <div>
-        <section>
-            <h1>{{ frett[1] }}</h1>
+     <div class="group">
+        <section class="col1">
+            <h3>{{ frett[1] }}</h3>
             <img src='/static/mynd{{ frett[0] }}.png/'>
+            <br>
+            <br>
         </section>
-        <section>
-            <h4>{{ frett[2] }}</h4>
+        <section class="col1">
+            <br>
+            <br>
+            <p>{{ frett[2] }}</p>
             <h5>{{ frett[3] }}</h5>
              <h5><a href="/">Forsíða</a></h5>
         </section>
